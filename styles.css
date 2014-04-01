@@ -1,0 +1,102 @@
+body {
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position:center;
+	}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	}
+
+a:hover {color:#E34234;}   /* mouse over link */
+a:active {color:#4682b4;}  /* selected link */
+ 	
+
+h1{
+	text-align: center; 
+	font-size: 125px;
+	opacity: 0.75;
+	color: white;
+	font-family: Helvetica;
+	}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;	
+	background-color: rgba(0,0,0,0.50); 
+	position: relative; 
+	border-radius: 15px; 
+	width: 1100px; 
+	height: 600px; 
+	}
+.clearholder{
+	background-color: rgba(0,0,0,0); 
+	position: static; 
+	float: left;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	}
+
+.horizontal{
+	width: 1100px;
+	height: 50px;
+	}
+.vertical{
+	width: 214px;
+	height: 450px;
+	}
+.mainfield{
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	width: 850px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.50); 
+	}
+
+.button{
+	position: relative; 
+	border-radius: 5px; 
+	width: 214px;
+	height: 50px; 
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-bottom: 20px;
+	}
+
+.whitefill{
+	background-color: rgba(255, 255, 255, 0.35);
+	}
+.blackfill{
+	background-color: rgba(0, 0, 0, 0.5);
+	}
+.clearfill{
+	background-color: rgba(0,0,0,0);
+	}
+.buttontext{
+	text-align: center; 
+	font-size: 40px; 
+	font-family: Helvetica;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	}
+.whitetext{
+	color: white;
+	opacity: 0.6;
+	}
+.blacktext{
+	color: black;
+	opacity: 1;
+	}
+.mainfieldtext{
+	color: white;
+	opacity: 0.6;
+	font-size: 25px;
+	font-family: Helvetica;
+	margin-left: 15px;
+	line-height: 40px;
+	}
